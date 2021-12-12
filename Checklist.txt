@@ -1,0 +1,4 @@
+Fazer o mapa com pontinhos e olhar para cada pontinho
+Fazer pontos de referência nas próprias cenas com informações relevantes
+Ir de uma cena pra outra
+Pontinho que indica onde você está olhando e quanto está o carregamento do gazed
