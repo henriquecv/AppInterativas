@@ -123,13 +123,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1022825802
+--- !u!1001 &1801664855
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5633213454005933582, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.46174863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633213454005933582, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633213454005933582, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8870109
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633213454005933582, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5633213454005933582, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 125
+      objectReference: {fileID: 0}
     - target: {fileID: 5633213454086063543, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -181,6 +201,6 @@ PrefabInstance:
     - target: {fileID: 5929137720852831428, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
       propertyPath: m_CustomSkybox
       value: 
-      objectReference: {fileID: 2100000, guid: bcac447bfae0f804bb5bcd0c12fa69c5, type: 2}
+      objectReference: {fileID: 2100000, guid: 3c3ff6a8715c50d4996d3d49943136ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
