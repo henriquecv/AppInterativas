@@ -11,6 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/David/VilaGumercindo1.unity
     guid: 5ceaf38b8cfc7c445930b6b1760faa70
+  - enabled: 1
+    path: Assets/Scenes/David/VilaGumercindo2.unity
+    guid: fc0549947c56a0f4fa7672b52a4392f0
+  - enabled: 1
+    path: Assets/Scenes/David/VilaGumercindo3.unity
+    guid: c177fb51b47eb784cb4f333a242e86d4
+  - enabled: 1
+    path: Assets/Scenes/David/VilaGumercindo4.unity
+    guid: 402cd674ff319b741a2df274ce77e841
+  - enabled: 1
+    path: Assets/Scenes/David/VilaGumercindo5.unity
+    guid: e42dc44f063c43a43bf8a0ee3e1b7b37
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d0c1348428304284282130b6a53d92a9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 16b3628a5bce17243b0f6ddbd7b4027d, type: 2}
