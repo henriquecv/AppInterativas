@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/iPoly3D/Server Room/Demo/Demo.unity
+    guid: fc7981980dd90ee40b53eda4bd70c5fb
+  - enabled: 1
+    path: Assets/Scenes/David/VilaGumercindo1.unity
+    guid: 5ceaf38b8cfc7c445930b6b1760faa70
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d0c1348428304284282130b6a53d92a9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 16b3628a5bce17243b0f6ddbd7b4027d, type: 2}
