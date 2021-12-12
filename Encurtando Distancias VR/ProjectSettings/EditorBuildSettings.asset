@@ -23,6 +23,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/David/VilaGumercindo5.unity
     guid: e42dc44f063c43a43bf8a0ee3e1b7b37
+  - enabled: 0
+    path: Assets/Scenes/Henrique/SantoAmaro.unity
+    guid: e36b025b9fdb56d46b97021314cb9275
+  - enabled: 0
+    path: Assets/Scenes/Henrique/SantoAmaro2.unity
+    guid: 3c33b4498eec72446a1251d6d5d62d03
+  - enabled: 0
+    path: Assets/Scenes/Luca/Jundiai1.unity
+    guid: 37f9c16caf89ed842b29de95fa2316b7
+  - enabled: 0
+    path: Assets/Scenes/Luca/Jundiai2.unity
+    guid: 10ae7313f3a998b43b5fb702b3158a94
+  - enabled: 0
+    path: Assets/Scenes/Luca/Jundiai3.unity
+    guid: abe205f99a2b38e4c946a04564926a41
+  - enabled: 0
+    path: Assets/Scenes/Luca/Jundiai4.unity
+    guid: f8c432b7982bd5d4bbae6098b1ded778
+  - enabled: 0
+    path: Assets/Scenes/Luca/Jundiai5.unity
+    guid: 285090f6ef4c2e742a33281ddd7d3d86
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d0c1348428304284282130b6a53d92a9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 16b3628a5bce17243b0f6ddbd7b4027d, type: 2}
