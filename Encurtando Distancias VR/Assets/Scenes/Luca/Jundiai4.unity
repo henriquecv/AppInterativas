@@ -245,3 +245,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0760d4f9157cc54891ed30775b76e01, type: 3}
+--- !u!1001 &1446921156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425057, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425061, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: scene
+      value: Jundiai3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994771663777425062, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
+      propertyPath: m_Name
+      value: EsferaVoltar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c38b4c7ff44fcaa4ab2b838fefe43639, type: 3}
