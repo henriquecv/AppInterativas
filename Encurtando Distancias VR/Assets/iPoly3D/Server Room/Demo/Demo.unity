@@ -1984,6 +1984,10 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4761589860400190718, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5633213454086063543, guid: 5d9477a868967dc4a809b9e2708357e5, type: 3}
       propertyPath: m_RootOrder
       value: 0
