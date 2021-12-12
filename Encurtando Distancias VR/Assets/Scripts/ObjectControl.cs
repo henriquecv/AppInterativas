@@ -19,6 +19,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// Controls target objects behaviour.
@@ -30,17 +31,24 @@ public class ObjectControl : MonoBehaviour
     // Gaze Timer logic
     private bool _gvrStatus = false;
     private float _gvrTimer = 0;
-    private float _totalTime = 4.0f;
-    //private Image imgGaze; //We get this image by the Tag "Gaze Image"
+    private float _totalTime = 2.0f;
+    private Image imgGaze; //We get this image by the Tag "Gaze Image"
     private bool _gazeComplete = false;
+    private GameObject gazePoint;
 
+    public void Start()
+    {
+        gazePoint = GameObject.Find("GazePoint");
+        imgGaze = GameObject.Find("GazePointExpand").GetComponent<Image>();
+        imgGaze.fillAmount = 0;
+    }
     public void Update()
     {
         // Gaze Timer logic
         if (_gvrStatus)
         {
             _gvrTimer += Time.deltaTime;
-            //imgGaze.fillAmount = _gvrTimer / _totalTime;
+            imgGaze.fillAmount = _gvrTimer / _totalTime;
         }
 
         if (_gvrTimer > _totalTime && _gazeComplete != true)
@@ -56,6 +64,7 @@ public class ObjectControl : MonoBehaviour
     public void OnPointerEnter()
     {
         _gvrStatus = true;
+        imgGaze.fillAmount = 0;
         Debug.Log("Entered!");
     }
 
@@ -66,6 +75,7 @@ public class ObjectControl : MonoBehaviour
     {
         _gvrStatus = false;
         _gvrTimer = 0;
+        imgGaze.fillAmount = 0;
         _gazeComplete = false;
         Debug.Log("Exited!");
     }
