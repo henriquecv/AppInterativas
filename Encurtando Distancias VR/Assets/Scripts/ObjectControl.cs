@@ -43,8 +43,8 @@ public class ObjectControl : MonoBehaviour
     {
         gazePoint = GameObject.Find("GazePoint");
         imgGaze = GameObject.Find("GazePointExpand").GetComponent<Image>();
-        UICard.SetActive(false);
         imgGaze.fillAmount = 0;
+        UICard.SetActive(false);
     }
     public void Update()
     {
