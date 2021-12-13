@@ -28,6 +28,8 @@ public class ObjectControl : MonoBehaviour
 {
     [SerializeField]
     private string scene = "";
+    [SerializeField]
+    private bool isInfo;
     // Gaze Timer logic
     private bool _gvrStatus = false;
     private float _gvrTimer = 0;
@@ -35,11 +37,13 @@ public class ObjectControl : MonoBehaviour
     private Image imgGaze; //We get this image by the Tag "Gaze Image"
     private bool _gazeComplete = false;
     private GameObject gazePoint;
-
+    [SerializeField]
+    private GameObject UICard;
     public void Start()
     {
         gazePoint = GameObject.Find("GazePoint");
         imgGaze = GameObject.Find("GazePointExpand").GetComponent<Image>();
+        UICard.SetActive(false);
         imgGaze.fillAmount = 0;
     }
     public void Update()
@@ -77,6 +81,7 @@ public class ObjectControl : MonoBehaviour
         _gvrTimer = 0;
         imgGaze.fillAmount = 0;
         _gazeComplete = false;
+        UICard.SetActive(false);
         Debug.Log("Exited!");
     }
 
@@ -98,8 +103,11 @@ public class ObjectControl : MonoBehaviour
     /// </param>
     private void sendHello()
     {
-         Debug.Log("Hello from Gazed!");
-         SceneManager.LoadScene(scene);
+         if(!isInfo)
+            SceneManager.LoadScene(scene);
+         else
+            UICard.SetActive(true);
+
     }
 
 }

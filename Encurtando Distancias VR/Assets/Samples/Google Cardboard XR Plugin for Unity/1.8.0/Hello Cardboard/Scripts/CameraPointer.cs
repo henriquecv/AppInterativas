@@ -25,7 +25,7 @@ using UnityEngine.XR.Management;
 /// </summary>
 public class CameraPointer : MonoBehaviour
 {
-    private const float _maxDistance = 10;
+    private const float _maxDistance = 50;
     private GameObject _gazedAtObject = null;
 
     public void Start()
